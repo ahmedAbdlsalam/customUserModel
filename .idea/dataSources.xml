@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:E:\django\customUserModel\db.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="cutomModel1" uuid="e1d5fd2c-947c-46c4-ba99-c50f5c804fa3">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\django\customUserModel\cutomModel1</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

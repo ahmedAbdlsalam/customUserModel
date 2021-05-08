@@ -60,7 +60,7 @@ class Account(AbstractBaseUser):
     def __str__(self):
         return self.username
 
-    def  get_profile_image_filename(self):
+    def get_profile_image_filename(self):
         return str(self.profile_image)[str(self.profile_image).index(f'profiles_images/{self.pk}/'):]
 
     def has_perm(self, perm, object=None):
@@ -68,4 +68,3 @@ class Account(AbstractBaseUser):
 
     def has_module_perms(self, app_label):
         return self.is_superuser
-
